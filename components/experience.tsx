@@ -9,10 +9,13 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useInView } from "react-intersection-observer";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Experience() {
+  const { ref } = useSectionInView("Experience");
+
   return (
-    <section className="scroll-mt-28" id="experience">
+    <section className="scroll-mt-28 mb-28 sm:mb-40" id="experience" ref={ref}>
       <SectionHeading>Experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => {
