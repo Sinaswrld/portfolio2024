@@ -1,23 +1,25 @@
-"use client";
+'use client';
 
-import { useRef } from "react";
-import { projectsData } from "@/lib/data";
-import Image from "next/image";
-import { useScroll, useTransform } from "framer-motion";
-import { motion } from "framer-motion";
+import { useRef } from 'react';
+import { projectsData } from '@/lib/data';
+import Image from 'next/image';
+import { useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,
   description,
+  link,
   tags,
   imageUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.33 1"],
+    offset: ['0 1', '1.33 1'],
   });
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
 
@@ -35,6 +37,15 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
+          {link ? (
+            <Link
+              className="mt-2 mb-5 w-16 bg-slate-500 hover:bg-slate-700 transition-all px-3 py-1 rounded-md text-white dark:text-white/70"
+              href={link}>
+              View
+            </Link>
+          ) : (
+            ''
+          )}
           <ul className="flex  flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
