@@ -63,6 +63,7 @@ export const projectsData = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+    link: 'https://yelpcamp-m4aa.onrender.com',
     imageUrl: previousPortfolioImg,
   },
   {
