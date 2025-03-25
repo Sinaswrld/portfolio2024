@@ -28,9 +28,9 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         includes{' '}
         <span className="font-medium">
-          Next.JS, React.JS, Node.JS, Express.JS, PostgreSQL and MongoDB
+          React.JS, Next.JS, Node.JS, Express.JS, PostgreSQL and MongoDB
         </span>
-        . I am also familiar with TypeScript, Prisma, and Mongoose and I am
+        . I am also familiar with TypeScript, Prisma, and Firestore and I am
         always looking to learn new technologies.
       </p>
       <p>

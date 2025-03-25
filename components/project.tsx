@@ -58,7 +58,7 @@ export default function Project({
         </div>
 
         <Image
-          className="absolute top-[31%] -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:-right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 transition hidden sm:block "
+          className="absolute md:top-[31%] top-[33%] -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:-right-[initial] group-even:-left-40 group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 transition hidden sm:block "
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
