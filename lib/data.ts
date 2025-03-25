@@ -65,7 +65,7 @@ export const projectsData = [
     title: 'Previous Portfolio Website',
     description:
       'Custom personal website featuring a modern, responsive UI. Configured for automated deployment.',
-    tags: ['React.JS', 'SCSS', 'Animate.CSS', 'EmailJS', 'Leafleat.JS'],
+    tags: ['React.js', 'SCSS', 'Animate.CSS', 'EmailJS', 'Leafleat.js'],
     link: 'https://sea-lion-app-4e5dn.ondigitalocean.app',
     imageUrl: previousPortfolio,
   },
@@ -74,8 +74,8 @@ export const projectsData = [
     description:
       'This is my personal portfolio website, designed to showcase my work, skills, and experience. It features a modern, responsive design with smooth animations and an intuitive user experience.',
     tags: [
-      'React.JS',
-      'Next.JS',
+      'React.js',
+      'Next.js',
       'TypeScript',
       'Tailwind CSS',
       'Framer Motion',
@@ -92,8 +92,8 @@ export const projectsData = [
       'HTML',
       'CSS',
       'JavaScript',
-      'Node.JS',
-      'Express.JS',
+      'Node.js',
+      'Express.js',
       'MongoDB',
       'Mongoose',
       'Cloudinary',
@@ -106,8 +106,8 @@ export const projectsData = [
       'An e-commerce platform with a seamless shopping experience, including secure payments, user authentication, and a responsive design for browsing products effortlessly.',
     link: 'https://prostore-seven-smoky.vercel.app',
     tags: [
-      'React.JS',
-      'Next.JS',
+      'React.js',
+      'Next.js',
       'TypeScript',
       'PostgresSQL',
       'Prisma',
@@ -122,8 +122,8 @@ export const projectsData = [
     description:
       'A real-time collaborative note-taking app inspired by Notion. It supports document editing, live collaboration, cloud storage, and AI-powered enhancements.',
     tags: [
-      'React.JS',
-      'Next.JS',
+      'React.js',
+      'Next.js',
       'TypeScript',
       'Firestore',
       'Tailwind CSS',
@@ -139,8 +139,8 @@ export const projectsData = [
     description:
       'A language translation tool supporting over 100 languages, providing accurate translations with a seamless user experience and a history feature for past translations.',
     tags: [
-      'React.JS',
-      'Next.JS',
+      'React.js',
+      'Next.js',
       'TypeScript',
       'MongoDB',
       'Mongoose',
@@ -158,10 +158,10 @@ export const skillsData = [
   'SCSS',
   'JavaScript',
   'TypeScript',
-  'React.JS',
-  'Next.JS',
-  'Node.JS',
-  'Express.JS',
+  'React.js',
+  'Next.js',
+  'Node.js',
+  'Express.js',
   'Git & GitHub',
   'MongoDB',
   'Mongoose',
