@@ -10,7 +10,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
-import introPic from '@/public/intro_pic.jpeg';
+import introPic from '@/public/intro_pic.png';
 
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.5);
