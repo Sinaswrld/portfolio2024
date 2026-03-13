@@ -10,7 +10,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
-// import introPic from '@/public/intro_pic.jpg';
+import introPic from '@/public/intro_pic.jpg';
 
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.5);
@@ -30,7 +30,7 @@ export default function Intro() {
               type: 'tween',
               duration: 0.2,
             }}>
-            {/* <Image
+            <Image
               src={introPic}
               alt="Sina Portrait"
               width="192"
@@ -38,7 +38,7 @@ export default function Intro() {
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            /> */}
+            />
           </motion.div>
           <motion.span
             className="absolute bottom-0 left-0 text-4xl"
