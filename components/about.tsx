@@ -21,18 +21,11 @@ export default function About() {
         While studying{' '}
         <span className="font-medium">Mechatronics Engineering</span> at the{' '}
         <span className="font-medium">University of Waterloo</span>, I decided
-        to pursue my passion for programming. I enrolled in a coding bootcamp
-        and started to learn{' '}
-        <span className="font-medium">web development</span>.{' '}
+        to pursue my passion for programming. I purchased an online course and
+        started to learn <span className="font-medium">web development</span>.{' '}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        includes{' '}
-        <span className="font-medium">
-          React.js, Next.js, Node.js, Express.js, PostgreSQL and MongoDB
-        </span>
-        . I am also familiar with TypeScript, Prisma, and Firestore and I am
-        always looking to learn new technologies.
+        feeling of finally figuring out a solution to a problem.
       </p>
       <p>
         <span className="italic">When I&apos;m not coding</span> 👨‍💻, I enjoy

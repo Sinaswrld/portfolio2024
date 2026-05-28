@@ -2,11 +2,7 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import yelpCamp from '@/public/yelpCamp2.jpeg';
 import prostore from '@/public/prostore2.jpeg';
-import previousPortfolio from '@/public/previousPortfolio2.jpeg';
 import currentPortfolio from '@/public/currentPortfolio2.jpeg';
-import notionClone from '@/public/notionClone2.jpeg';
-import googleTranslateClone from '@/public/googleTranslateClone2.jpeg';
-import chatToPdf from '@/public/chat-to-pdf2.jpeg';
 export const links = [
   {
     name: 'Home',
@@ -63,14 +59,6 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Previous Portfolio Website',
-    description:
-      'Custom personal website featuring a modern, responsive UI. Configured for automated deployment.',
-    tags: ['React.js', 'SCSS', 'Animate.CSS', 'EmailJS', 'Leafleat.js'],
-    link: 'https://sea-lion-app-4e5dn.ondigitalocean.app',
-    imageUrl: previousPortfolio,
-  },
-  {
     title: 'This Website',
     description:
       'This is my personal portfolio website, designed to showcase my work, skills, and experience. It features a modern, responsive design with smooth animations and an intuitive user experience.',
@@ -118,56 +106,6 @@ export const projectsData = [
     ],
     imageUrl: prostore,
   },
-  {
-    title: 'Notion Clone',
-    description:
-      'A real-time collaborative note-taking app inspired by Notion. It supports document editing, live collaboration, cloud storage, and AI-powered enhancements.',
-    tags: [
-      'React.js',
-      'Next.js',
-      'TypeScript',
-      'Firestore',
-      'Tailwind CSS',
-      'Cloudflare Workers',
-      'OpenAI',
-      'Liveblocks',
-    ],
-    link: 'https://notion-clone-beige-nu.vercel.app/',
-    imageUrl: notionClone,
-  },
-  {
-    title: 'Google Translate Clone',
-    description:
-      'A language translation tool supporting over 100 languages, providing accurate translations with a seamless user experience and a history feature for past translations.',
-    tags: [
-      'React.js',
-      'Next.js',
-      'TypeScript',
-      'MongoDB',
-      'Mongoose',
-      'Tailwind CSS',
-      'Microsoft Azure',
-    ],
-    link: 'https://google-translate-clone-henna.vercel.app',
-    imageUrl: googleTranslateClone,
-  },
-  {
-    title: 'Chat To PDF',
-    description:
-      'A document interaction tool enabling conversations with PDF files, providing precise answers extracted directly from the content through AI language processing.',
-    tags: [
-      'React.js',
-      'Next.js',
-      'TypeScript',
-      'Firestore',
-      'Tailwind CSS',
-      'OpenAI',
-      'Langchain',
-      'Pinecone',
-    ],
-    link: 'https://chat-to-pdf-five-omega.vercel.app',
-    imageUrl: chatToPdf,
-  },
 ] as const;
 
 export const skillsData = [
@@ -185,17 +123,9 @@ export const skillsData = [
   'Mongoose',
   'PostgreSQL',
   'Prisma',
-  'Firestore',
   'Tailwind CSS',
   'ShadCN',
-  'Framer Motion',
   'AWS',
-  'Docker',
-  'OpenAI',
-  'Cloudflare Workers',
-  'Microsoft Azure',
-  'Langchain',
-  'Pinecone',
   'Python',
   'C++',
   'C',
